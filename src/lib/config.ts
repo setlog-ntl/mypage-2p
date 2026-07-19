@@ -88,12 +88,12 @@ export const siteConfig = {
   { platform: 'youtube', url: 'https://youtube.com' },
   { platform: 'instagram', url: 'https://instagram.com' }
 ]),
-  gradientFrom: '#9b7968',
-  gradientTo: '#c4956a',
+  gradientFrom: '#818cf8',
+  gradientTo: '#c084fc',
   parallaxEnabled: true,
   fontFamily: 'Pretendard',
   galleryColumns: '3',
-  designPreset: 'warm-earth',
+  designPreset: 'midnight',
   gaId: process.env.NEXT_PUBLIC_GA_ID || null,
 };
 
