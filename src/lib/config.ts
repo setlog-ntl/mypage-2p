@@ -67,10 +67,12 @@ export const siteConfig = {
   heroImageUrl: process.env.NEXT_PUBLIC_HERO_IMAGE_URL || 'https://linkmap.biz/img/templates/personal-brand-hero.png',
   story:
     process.env.NEXT_PUBLIC_STORY ||
-    '안녕하세요, 저는 홍진수입니다. \n12년차 직장인으로 AI를 통해 개발을 시작한지 2년된 \n바이브코딩 초보 개발자 입니다. \n제가만든 서비스는 Linkmap, readtree, appatree 입니다',
+    '안녕하세요, 저는 최동혁입니디. \n12년차 직장인으로 AI를 통해 개발을 시작한지 2년된 \n바이브코딩 초보 개발자 입니다. \n제가만든 서비스는 Linkmap, readtree, appatree 입니다',
   storyEn:
     process.env.NEXT_PUBLIC_STORY_EN ||
     'Hi, I\'m Jiwon Lee. For the past five years I\'ve been building bridges between brands and people through digital content.',
+  storyTitle: process.env.NEXT_PUBLIC_STORY_TITLE || '',
+  storyTitleEn: process.env.NEXT_PUBLIC_STORY_TITLE_EN || '',
   values: parseJSON<ValueItem[]>(process.env.NEXT_PUBLIC_VALUES, DEMO_VALUES),
   highlights: parseJSON<HighlightItem[]>(process.env.NEXT_PUBLIC_HIGHLIGHTS, DEMO_HIGHLIGHTS),
   galleryImages: parseJSON<string[]>(process.env.NEXT_PUBLIC_GALLERY_IMAGES, [
