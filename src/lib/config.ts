@@ -60,8 +60,8 @@ function parseJSON<T>(raw: string | undefined, fallback: T): T {
 }
 
 export const siteConfig = {
-  name: process.env.NEXT_PUBLIC_SITE_NAME || '홍진수',
-  nameEn: process.env.NEXT_PUBLIC_SITE_NAME_EN || 'jinsu hong',
+  name: process.env.NEXT_PUBLIC_SITE_NAME || '최동혁',
+  nameEn: process.env.NEXT_PUBLIC_SITE_NAME_EN || 'donghyuck choi',
   tagline: process.env.NEXT_PUBLIC_TAGLINE || '바이브코딩 개발자',
   taglineEn: process.env.NEXT_PUBLIC_TAGLINE_EN || 'vibecording statup ceo',
   heroImageUrl: process.env.NEXT_PUBLIC_HERO_IMAGE_URL || 'https://linkmap.biz/img/templates/personal-brand-hero.png',
@@ -86,12 +86,12 @@ export const siteConfig = {
   { platform: 'youtube', url: 'https://youtube.com' },
   { platform: 'instagram', url: 'https://instagram.com' }
 ]),
-  gradientFrom: '#10b981',
-  gradientTo: '#34d399',
+  gradientFrom: '#9b7968',
+  gradientTo: '#c4956a',
   parallaxEnabled: true,
   fontFamily: 'Pretendard',
   galleryColumns: '3',
-  designPreset: 'terminal',
+  designPreset: 'warm-earth',
   gaId: process.env.NEXT_PUBLIC_GA_ID || null,
 };
 
