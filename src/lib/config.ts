@@ -60,10 +60,10 @@ function parseJSON<T>(raw: string | undefined, fallback: T): T {
 }
 
 export const siteConfig = {
-  name: process.env.NEXT_PUBLIC_SITE_NAME || '이지원',
-  nameEn: process.env.NEXT_PUBLIC_SITE_NAME_EN || 'Jiwon Lee',
-  tagline: process.env.NEXT_PUBLIC_TAGLINE || '콘텐츠로 세상을 연결하는 크리에이터',
-  taglineEn: process.env.NEXT_PUBLIC_TAGLINE_EN || 'Creator who connects the world through content',
+  name: process.env.NEXT_PUBLIC_SITE_NAME || '홍진수',
+  nameEn: process.env.NEXT_PUBLIC_SITE_NAME_EN || 'jinsu hong',
+  tagline: process.env.NEXT_PUBLIC_TAGLINE || '바이브코딩 개발자',
+  taglineEn: process.env.NEXT_PUBLIC_TAGLINE_EN || 'vibecording statup ceo',
   heroImageUrl: process.env.NEXT_PUBLIC_HERO_IMAGE_URL || 'https://linkmap.biz/img/templates/personal-brand-hero.png',
   story:
     process.env.NEXT_PUBLIC_STORY ||
@@ -86,12 +86,12 @@ export const siteConfig = {
   { platform: 'youtube', url: 'https://youtube.com' },
   { platform: 'instagram', url: 'https://instagram.com' }
 ]),
-  gradientFrom: '#818cf8',
-  gradientTo: '#c084fc',
+  gradientFrom: '#10b981',
+  gradientTo: '#34d399',
   parallaxEnabled: true,
   fontFamily: 'Pretendard',
   galleryColumns: '3',
-  designPreset: 'midnight',
+  designPreset: 'terminal',
   gaId: process.env.NEXT_PUBLIC_GA_ID || null,
 };
 
