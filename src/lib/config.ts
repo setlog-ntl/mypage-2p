@@ -64,7 +64,7 @@ export const siteConfig = {
   nameEn: process.env.NEXT_PUBLIC_SITE_NAME_EN || 'donghyuck choi',
   tagline: process.env.NEXT_PUBLIC_TAGLINE || '바이브코딩 개발자',
   taglineEn: process.env.NEXT_PUBLIC_TAGLINE_EN || 'vibecording statup ceo',
-  heroImageUrl: process.env.NEXT_PUBLIC_HERO_IMAGE_URL || 'https://linkmap.biz/img/templates/personal-brand-hero.png',
+  heroImageUrl: process.env.NEXT_PUBLIC_HERO_IMAGE_URL || `${_basePath}/images/1784639878552-upload.webp`,
   story:
     process.env.NEXT_PUBLIC_STORY ||
     '안녕하세요, 저는 최동혁입니디. n12년차 직장인으로 AI를 통해 개발을 시작한지 2년된 n바이브코딩 초보 개발자 입니다. n제가만든 서비스는 Linkmap, readtree, appatree 입니다',
